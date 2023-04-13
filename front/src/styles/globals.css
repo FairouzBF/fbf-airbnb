@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hideScroll::-webkit-scrollbar {
+    display: none;
+}
+
+.icon-size {
+    font-size: 24px;
+    /* ajustez la taille de l'icône en fonction de vos besoins */
+}
